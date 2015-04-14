@@ -1,0 +1,8 @@
+Important Emacs Commands
+
+Jumping to certain places in lines or in a piece of text:
+C-u 3 C-p  	   Jumps back 3 lines
+C-u 10 C-f	   Moves forward 10 characters
+C-u C-n		   Forward 4 lines
+C-u C-u C-n	   Fowrard 16 lines
+C-u C-u C-u C-n	   Forward 64 lines

@@ -1,0 +1,23 @@
+Important Emacs Commands
+
+Jumping to certain places in lines or in a piece of text:
+C-u 3 C-p  	   Jumps back 3 lines
+C-u 10 C-f	   Moves forward 10 characters
+C-u C-n		   Forward 4 lines
+C-u C-u C-n	   Fowrard 16 lines
+C-u C-u C-u C-n	   Forward 64 lines
+
+C-x C-x     	   Swap point and mark (highlights some text to be swapped
+    		   to a different place
+C-x h		   Select all text
+C-k 		   Kill line
+C-u 10 C-k	   Kill 10 lines
+C-y    		   Yanks last killed text
+C-/		   Undo
+C-_		   Undo
+C-x u		   Undo
+
+
+C-x 1		   Shows only one document in the emacs window
+C-x 2		   Shows two documents in the emacs window
+
