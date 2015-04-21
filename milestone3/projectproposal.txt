@@ -1,0 +1,59 @@
+Physics 91SI Project Proposal
+April 20, 2015
+Jordan Friedland
+
+Tennis Match Tracker
+
+What does your project accomplish?
+This project will be a comprehensive program that takes in tennis match
+statistics input by a user (simple inputs like whether the first serve
+went in, whether the second serve went in, how many shots the rally was,
+whether the point ended on a winner, a forced error, or an unforced error)
+and then will present this information in an elegant and informative
+graphical manner after the match has finished. For possible extensions,
+this could be made into a more user interactive program where instead of
+typing, the user could simply click buttons that would correspond to
+events that happen in a point in tennis.Another possible extension is to
+display statistics in real-time (as in after every point).
+
+What inputs will it accept?
+The initial version of this program will just accept letters and numbers
+typed in by the user - the program will do essentially all of the legwork
+behind the scenes to analyze the data that the user enters over the course
+of a tennis match. The specific inputs are:
+   - type of match (2 out of 3 sets, 3 out of 5 sets, etc.)
+   - scoring type (ad or no-ad)
+   - player 1 name
+   - player 2 name
+   **throughout the course of the match, the user will repeatedly be asked
+   for the following information**
+   - first serve in/out
+   - second serve in/out (if applicable)
+   - number of shots in the point
+   - whether the point ended on a winner, forced error, or unforced error
+   - what type of shot the point was ended on
+The data will initially be stored in variables, but in order to display
+certain statistics about serve percentages over the course of a match or
+number of winners over the course of a match, information will need to be
+placed into arrays where the divisions match up with the number of games
+played in the match. The user will simply need to choose which information
+to display, and it will be displayed in a very intuitive manner with
+appropriate labels, etc.
+
+What manipulations will the program perform on the data?
+The manipulations that the program will perform on the data will mostly be
+in the form of splitting the information up over the course of the match
+and putting it into arrays that correspond to either cumulative
+information over the course of a match or of averages (like average serve
+percentage over the course of a match). Using the SciPy functions of
+cumsum, diff, maximum, as well as an optimizing function to create a
+polynomial approximation of data change over the course of a match, this
+program will be able to display all of the information that the user
+enters either in real-time (during the match) or at the end of the match.
+
+What outputs will the program produce?
+As described before, the program will produce graphs that analyze the data
+that the user has been entering over the course of the match (this data
+will be unique for each match). The user will also have the option to
+display current data during a match to see how it changes in real-time
+over the course of the tennis match. 

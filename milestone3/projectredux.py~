@@ -1,0 +1,22 @@
+import numpy as np
+
+def main():
+    print_welcome()
+    match_type = choose_match_type()
+    print match_type
+
+def print_welcome():
+    print "Tennis Match"
+
+
+def choose_match_type():
+    print "Match type options:"
+    print "  1) 2 out of 3 sets"
+    print "  2) 3 out of 5 sets"
+    print "  3) 10 game pro set"
+    print "  4) 8 game pro set"
+    print "  5) 6 game pro set"
+    match_type = input("Please choose a match type: ")
+    return match_type
+
+main()
