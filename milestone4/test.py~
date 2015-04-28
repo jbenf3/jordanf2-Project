@@ -1,0 +1,3 @@
+
+
+execfile("projectredux.py")

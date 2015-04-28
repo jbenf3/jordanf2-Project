@@ -1,0 +1,14 @@
+<file habit-summary-1.txt>
+
+Habit: Read the error output
+
+Because I am not very familiar with classes in Python (even after the
+lecture) and I found myself struggling to implement a simple class in this
+project, I encountered many errors including a NameError when I was using
+the input() function so that the user could type in the name of the
+players. I Googled this error message and found that the input() function
+actually evaluates what is inside of the parentheses, whereas raw_input()
+just assigns what is inside of the parentheses to the variable. I also got
+rid of some of the issues with dividing by zero in my class definition by
+not defining the first serve percentage under the init heading but rather
+as a member function of the class.
