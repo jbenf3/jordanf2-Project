@@ -1,0 +1,7 @@
+Jordan Friedland
+Physics 91SI
+May 10, 2015
+
+Habit Summary #3: Write and test, write and test
+
+I have been trying to implement a new module, Tkinter, which is a GUI for python and I have had to write tiny amounts of code and test them continually because I haven't ever used Tkinter before. Even though the documentation on Tkinter is relatively extensive, there is still a large amount of testing that I have needed to do in order to make sure that the lines of code I have written are in the right order (using the GUI is difficult because some functions absolutely have to be defined earlier in the program before you can use them) and that I have adequately created and destroyed things that I need to. And because the coding environment of vim and emacs don't have red squiggly lines when there's an error in the syntax, it is much better to write small pieces of code and then test before moving on.
