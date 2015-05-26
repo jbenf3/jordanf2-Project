@@ -1,0 +1,9 @@
+Habit Summary #5
+Jordan Friedland
+May 25, 2015
+Physics 91SI Spring 2015
+
+
+Habit: Googling/Refine the scope of the project
+
+As I was working on this milestone, I realized that the scope of my project (with the Tkinter graphics) was pretty wide and it would take me a really long time to finish. As a result, I ended up ditching the Tkinter graphics because it was somewhat counterintuitive and difficult to work with and I was also getting bogged down in making the graphics rather than creating the foundation of my program. So after I did this, I was having trouble figuring out how to get objects and variables to hold their information throughout the length of the program. I initially thought of passing objects and variables in by reference, which is what you do in C++ in order to save memory, but after googling Python and passing by reference, I found that Python doesn't allow passing by reference. It allows passing by value and object reference, so I had to resort to using global variables, which is not altogether bad because the only global variables are the player objects.
