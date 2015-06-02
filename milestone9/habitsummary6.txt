@@ -1,0 +1,7 @@
+Jordan Friedland
+Physics91SI Spring 2015
+Habit Summary #6
+
+Habit: Computing Time is Cheap - Use It
+
+This is one of the lessons I learned the hard way. As a result of trying desperately and failing to figure out how to pass by reference (it was probably a silly thing), I wrote a whole bunch of code twice, which is not a good use of coding time. However, in implementing the display of data at the end of the program, I was able to effectively use numpy functions to help me distill the data that I wanted out of the arrays that are built up throughout the course of the program.
